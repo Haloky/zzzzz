@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Nunito:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+
+.section-p1{
+    padding: 40 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+.body{
+     
+  width: 100px;
+   
+
+
+}
+.logo{
+  
+    width: 100px;
+    height:100px;
+   
+}
+
+
+
+
+
+
+
+/* Header */
+ #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 100px;
+    background: rgb(236, 235, 235);
+    box-shadow: 19px 19px 19px rgba(0, 0, 0 ,0.06);
+
+ }
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: salmon;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+ 
+    content: "";
+    width: 30%;
+    
+    height: 2px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+/* home page */
+.btn{
+  
+}
+#hero{
+    background-image: url(banner/sssss.png) ;
+    height: 100vh;
+    width: 100%;
+    bottom: 100px;
+    background-size: cover;
+    background-position: top 15% right 0;
+    padding: 0 80px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* shop page */
+
+
+
+/* single product */
+
+
+
+/* blog page */
+
+
+
+/* about page */
